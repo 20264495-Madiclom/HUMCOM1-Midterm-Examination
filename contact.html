@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | My Portfolio</title>
+</head>
+<body style="background-color: rgb(214, 238, 255); font-style: arial; margin: 20px; ">
+
+
+<header text-align: center;>
+    <nav text-align: center;>
+      <a href="index.html" text-align: center;>Home</a> |
+      <a href="about.html" text-align: center;>About</a> |
+      <a href="services.html" text-align: center;>Services</a> |
+      <a href="media.html" text-align: center;>Media</a> |
+      <a href="contact.html" text-align: center;>Contact</a>
+    </nav>
+  </header>
+
+
+  <hr class="header-divider">
+
+
+  <main class="card-container">
+        <p style="text-align: center;"><img src="Sources/Carms.jpg"style="border-radius: 50%;" alt="Profile photo of the portfolio owner" width="150" height="150"></p>
+    <h1 text-align:"center";>Contact Me</h1>
+    <form action="https://example.com/submit-contact" method="POST">
+      <fieldset>
+        <legend>Contact Form</legend>
+
+
+        <p>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </p>
+
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" minlength="3" required>
+        </p>
+
+
+        <p>
+          <label for="topic">Topic:</label>
+          <select id="topic" name="topic" required>
+            <option value="">-- Select a topic --</option>
+            <option value="general">General Inquiry</option>
+            <option value="services">Services</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </p>
+
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+        </p>
+
+
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </fieldset>
+    </form>
+  </main>
+
+
+
+
+
+
+  <footer>
+    <p>&copy; 2026 My Portfolio. Madiclom, Carmela F. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>
